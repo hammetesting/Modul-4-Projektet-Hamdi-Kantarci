@@ -1,0 +1,118 @@
+// Array med frågeobjekt, väljer att ha frågorna samt bilder för frågorna i separat fil för tydligare kontroll, informationen hämtas med questionText.textContent objektet i script filen
+let questions = [
+  {
+    numb: 1,
+    question: "Vilken film?",
+    answer: "C. Commando",
+    image: "bilder/l-intro-1648646727.jpg",
+    options: [
+      "A. Terminator",
+      "B. Predator",
+      "C. Commando",
+      "D. Jingle all the way",
+    ],
+  },
+  {
+    numb: 2,
+    question: "Vilken film?",
+    image: "bilder/20basicinstinct-notebook1-articleLarge.webp",
+    answer: "D. Basic instinct",
+    options: [
+      "A. The Firm",
+      "B. Hallow Man",
+      "C. Double Jeapordy",
+      "D. Basic instinct",
+    ],
+  },
+  {
+    numb: 3,
+    question: "Vad heter karaktären?",
+    image: "bilder/EscapeNY-Social.webp",
+    answer: "C. Snake Plissken",
+    options: [
+      "A. Captain Jack Sparrow",
+      "B. Hauk",
+      "C. Snake Plissken",
+      "D. Snake Eyes",
+    ],
+  },
+  {
+    numb: 4,
+    question: "Vilken film?",
+    image: "bilder/big_trouble_in_little_china_nightmare_fuel.webp",
+    answer: "D. Big Trouble In Little China",
+    options: [
+      "A. Gremlins",
+      "B. They Live",
+      "C. The Thing",
+      "D. Big Trouble In Little China",
+    ],
+  },
+  {
+    numb: 5,
+    question: "Vilken film?",
+    image: "bilder/Giant-bug-in-Starship-Troopers.webp",
+    answer: "C. Starship Troopers",
+    options: [
+      "A. Band Of Brothers",
+      "B. Demolition Man",
+      "C. Starship Troopers",
+      "D. Fifth Element",
+    ],
+  },
+  {
+    numb: 6,
+    question: "Vilken film?",
+    image: "bilder/robocop01.webp",
+    answer: "B. Robocop",
+    options: ["A. Chappie", "B. Robocop", "C. Judge Dredd", "D. Steel"],
+  },
+  {
+    numb: 7,
+    question: "Vilken film?",
+    image: "bilder/AceVentura1.png",
+    answer: "A. Ace Ventura",
+    options: [
+      "A. Ace Ventura",
+      "B. Shutter Island",
+      "C. One Flew Over the Cuckoo's Nest",
+      "D. The Silence of the Lambs",
+    ],
+  },
+  {
+    numb: 8,
+    question: "Vilken film?",
+    image: "bilder/johnmatuszak_grande.webp",
+    answer: "B. Goonies",
+    options: [
+      "A. The Toxic Avenger",
+      "B. Goonies",
+      "C. Killer Klowns from Outer Space",
+      "D. Krampus",
+    ],
+  },
+  {
+    numb: 9,
+    question: "Vilken film?",
+    image: "bilder/nightmareonelmstreet.webp",
+    answer: "D. Nightmare On Elm Street",
+    options: [
+      "A. Friday The 13th",
+      "B. Scream",
+      "C. Cursed",
+      "D. Nightmare On Elm Street",
+    ],
+  },
+  {
+    numb: 10,
+    question: "Vilken film?",
+    image: "bilder/jean-claude-van-damme-dancing-kickboxer.webp",
+    answer: "A. Kickboxer",
+    options: [
+      "A. Kickboxer",
+      "B. Footloose",
+      "C. Dirty Dancing",
+      "D. Double Team",
+    ],
+  },
+];

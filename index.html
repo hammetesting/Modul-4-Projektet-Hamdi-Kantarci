@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Meta taggar -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="Beskrivning" />
+    <meta name="Author" content="Hamdi Kantarci" />
+
+    <!-- Stylesheet lämk -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Page title -->
+    <title>Quizzy.</title>
+  </head>
+
+  <body>
+    <main class="main">
+      <!-- Header sektionen -->
+      <header class="header">
+        <a href="#" class="logo">Quizzy.</a>
+        <nav class="navbar">
+          <a href="#" class="active">Hem</a>
+          <a href="#">Om</a>
+          <a href="#">Hjälp</a>
+          <a href="#">Kontakt</a>
+        </nav>
+      </header>
+
+      <!-- Main content containern -->
+      <div class="container">
+        <!-- Quiz section, klass för quiz sektionen -->
+        <section class="quiz-section">
+          <!-- Quiz boxen -->
+          <div class="quiz-box">
+            <h1>Quizzy.</h1>
+            <div class="quiz-header">
+              <span>Filmfrågor</span>
+              <span class="header-score">Poäng: 0 / 10</span>
+            </div>
+
+            <div class="question-image"></div>
+
+            <!-- Question text -->
+            <h2 class="question-text">Vilken film?</h2>
+
+            <!-- Option list -->
+            <div class="option-list">
+              <div class="option">
+                <span>A. Terminator</span>
+              </div>
+              <div class="option">
+                <span>B. Predator</span>
+              </div>
+              <div class="option">
+                <span>C. Commando</span>
+              </div>
+              <div class="option">
+                <span>D. Jingle All The Way</span>
+              </div>
+            </div>
+
+            <!-- Quiz footeern -->
+            <div class="quiz-footer">
+              <span class="question-total">1 of 10 frågor</span>
+              <button class="next-btn">Nästa</button>
+            </div>
+          </div>
+
+          <!-- Resultat box -->
+          <div class="result-box">
+            <h2>Quizzy Resultat!</h2>
+            <div class="percentage-container">
+              <div class="circular-progress">
+                <span class="progress-value">0%</span>
+              </div>
+              <span class="score-text">Ditt resultat 0 av 5</span>
+            </div>
+
+            <!-- Resultat knappar -->
+            <div class="buttons">
+              <button class="tryAgain-btn">Kör igen!</button>
+              <button class="goHome-btn">Gå Tillbaka</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- Hem section -->
+        <section class="home">
+          <div class="home-content">
+            <h1>Välkommen till Quizzy.</h1>
+            <p>Är du redo för att visa dina filmkunskaper?</p>
+            <button class="start-btn">Jag är redo!</button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Popup ruta -->
+    <div class="popup">
+      <h2>Quizzy Guiden</h2>
+      <span class="info">
+        Reglerna är simpla, varje ruta presenterar en bild från en känd film. Du
+        ska med hjälp av bilden svara på 1 av 4 alternativ. Ditt svar sparas
+        till slutet där du får se ditt resultat, lycka till!
+      </span>
+
+      <!-- Popup knapar -->
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Avsluta</button>
+        <a href="#" class="info-btn continue-btn">Fortsätt</a>
+      </div>
+    </div>
+
+    <!-- länk till js-->
+    <script src="frågorna.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
